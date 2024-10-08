@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="ticket.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrolade QR Ticket Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #2a9d8f;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .ticket-button {
+            background-color: #e76f51;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .ticket-button:hover {
+            background-color: #f4a261;
+        }
+
+        .ticket-result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #264653;
+        }
+
+        /* Add some space between the text and the image */
+        #ticketImage {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Electrolayde Ticket Challenge</h1>
+    <p>Find a QR code on your bottle to earn tickets. Collect 5 tickets and get 3 free bottles of Electrolade!</p>
+
+  
+    <div class="ticket-result">Congratulations! You found a QR code and earned 1 ticket!</div>
+
+    <!-- Ticket image displayed by default -->
+    <img id="ticketImage" src="ticket.png" alt="Ticket" width="300">
+</div>
+
+</body>
+</html>
